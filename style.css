@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+* {
+    font-family: 'Mooli', sans-serif;
+    box-sizing: border-box;
+}
+
+.card {
+    box-shadow: 0px 2px 4px -2px black;
+    border-radius: 0.5em;
+}
+
+.card-body {
+    padding: 2em 3em;
+}
+
+#index {
+    max-width: 48em;
+    margin: auto;
+    text-align: center;
+    padding-top: 6em;
+}
+
+#index img {
+    margin: auto;
+}
+
+#index ul {
+    list-style: none;
+    max-width: 20em;
+    margin: auto;
+
+    padding: 0;
+}
+
+#index li {
+    padding: .75em 0;
+}
+
+#index li:not(:last-child) {
+    border-bottom: .5px solid #616161
+}
+
+#index a {
+    text-decoration-line: none;
+}
+
+#recipe {
+    max-width: 78em;
+    margin: 3em auto;
+}
+
+#recipe h1 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#recipe img {
+    display: block;
+    margin: auto;
+    max-width: 24em;
+    border-radius: 0.5em;
+}
